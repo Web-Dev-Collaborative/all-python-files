@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 """ Print all of the clone-urls for a GitHub organization.
 It requires the pygithub3 module, which you can install like this::
-    $ sudo yum -y install python-virtualenv
-    $ mkdir scratch
-    $ cd scratch
-    $ virtualenv my-virtualenv
-    $ source my-virtualenv/bin/activate
-    $ pip install pygithub3
+     sudo yum -y install python-virtualenv
+     mkdir scratch
+     cd scratch
+     virtualenv my-virtualenv
+     source my-virtualenv/bin/activate
+     pip install pygithub3
 Usage example::
-    $ python list-all-repos.py
+     python list-all-repos.py
 Advanced usage.  This will actually clone all the repos for a
 GitHub organization or user::
-    $ for url in $(python list-all-repos.py); do git clone $url; done
+     for url in (python list-all-repos.py); do git clone url; done
 """
 
 import pygithub3
