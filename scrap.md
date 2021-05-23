@@ -10,7 +10,7 @@ git add  .gitattributes
 git add  .gitignore
 git add  JUPYTER_NOTEBOOKS/
 git add  _Learning/
-git add  list-org-repo.py
+git add  list-org-repo.py hi
 git add  makefile
 git add  _Math/
 git add  node_modules/
